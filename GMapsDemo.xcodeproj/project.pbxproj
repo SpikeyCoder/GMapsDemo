@@ -7,12 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75D0BFDF9AB39FB32E90702F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F9BB99590A567A359EFCFC /* libPods.a */; };
 		C06682591AC7D5A10064A6C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06682581AC7D5A10064A6C0 /* AppDelegate.swift */; };
 		C066825B1AC7D5A10064A6C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C066825A1AC7D5A10064A6C0 /* ViewController.swift */; };
 		C066825E1AC7D5A10064A6C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C066825C1AC7D5A10064A6C0 /* Main.storyboard */; };
 		C06682601AC7D5A10064A6C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C066825F1AC7D5A10064A6C0 /* Images.xcassets */; };
 		C06682631AC7D5A10064A6C0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C06682611AC7D5A10064A6C0 /* LaunchScreen.xib */; };
 		C066826F1AC7D5A10064A6C0 /* GMapsDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C066826E1AC7D5A10064A6C0 /* GMapsDemoTests.swift */; };
+		C64F85E71B38750F00011FCE /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64F85E61B38750F00011FCE /* GoogleMaps.framework */; };
+		C64F85E91B38751E00011FCE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64F85E81B38751E00011FCE /* AVFoundation.framework */; };
+		C64F85EB1B38752600011FCE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64F85EA1B38752600011FCE /* CoreData.framework */; };
+		C64F85ED1B38753100011FCE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64F85EC1B38753100011FCE /* CoreLocation.framework */; };
+		C64F85EF1B38753A00011FCE /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64F85EE1B38753A00011FCE /* CoreText.framework */; };
+		C64F85F11B38754200011FCE /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64F85F01B38754200011FCE /* GLKit.framework */; };
+		C64F85F31B38754A00011FCE /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64F85F21B38754A00011FCE /* ImageIO.framework */; };
+		C64F85F51B38756000011FCE /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C64F85F41B38756000011FCE /* libc++.dylib */; };
+		C64F85F71B38757500011FCE /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C64F85F61B38757500011FCE /* libicucore.dylib */; };
+		C64F85F91B38758900011FCE /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C64F85F81B38758900011FCE /* libz.dylib */; };
+		C64F85FB1B38759200011FCE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64F85FA1B38759200011FCE /* OpenGLES.framework */; };
+		C64F85FD1B38759A00011FCE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64F85FC1B38759900011FCE /* QuartzCore.framework */; };
+		C64F85FF1B3875A200011FCE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64F85FE1B3875A200011FCE /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37F9BB99590A567A359EFCFC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		427E3C190193DE6942E26066 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C06682531AC7D5A10064A6C0 /* GMapsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GMapsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C06682571AC7D5A10064A6C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C06682581AC7D5A10064A6C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +52,21 @@
 		C06682681AC7D5A10064A6C0 /* GMapsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GMapsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C066826D1AC7D5A10064A6C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C066826E1AC7D5A10064A6C0 /* GMapsDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMapsDemoTests.swift; sourceTree = "<group>"; };
+		C64F85E21B3873A700011FCE /* GMapsDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GMapsDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		C64F85E61B38750F00011FCE /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Pods/GoogleMaps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		C64F85E81B38751E00011FCE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C64F85EA1B38752600011FCE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C64F85EC1B38753100011FCE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C64F85EE1B38753A00011FCE /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		C64F85F01B38754200011FCE /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		C64F85F21B38754A00011FCE /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		C64F85F41B38756000011FCE /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		C64F85F61B38757500011FCE /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		C64F85F81B38758900011FCE /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		C64F85FA1B38759200011FCE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		C64F85FC1B38759900011FCE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C64F85FE1B3875A200011FCE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E85AA8A8CB38BAD6C8FA66BA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +74,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C64F85FF1B3875A200011FCE /* SystemConfiguration.framework in Frameworks */,
+				C64F85FD1B38759A00011FCE /* QuartzCore.framework in Frameworks */,
+				C64F85FB1B38759200011FCE /* OpenGLES.framework in Frameworks */,
+				C64F85F91B38758900011FCE /* libz.dylib in Frameworks */,
+				C64F85F71B38757500011FCE /* libicucore.dylib in Frameworks */,
+				C64F85F51B38756000011FCE /* libc++.dylib in Frameworks */,
+				C64F85F31B38754A00011FCE /* ImageIO.framework in Frameworks */,
+				C64F85F11B38754200011FCE /* GLKit.framework in Frameworks */,
+				C64F85EF1B38753A00011FCE /* CoreText.framework in Frameworks */,
+				C64F85ED1B38753100011FCE /* CoreLocation.framework in Frameworks */,
+				C64F85EB1B38752600011FCE /* CoreData.framework in Frameworks */,
+				C64F85E91B38751E00011FCE /* AVFoundation.framework in Frameworks */,
+				C64F85E71B38750F00011FCE /* GoogleMaps.framework in Frameworks */,
+				75D0BFDF9AB39FB32E90702F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +101,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		420E108D27BA4F3F34900AAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C64F85FE1B3875A200011FCE /* SystemConfiguration.framework */,
+				C64F85FC1B38759900011FCE /* QuartzCore.framework */,
+				C64F85FA1B38759200011FCE /* OpenGLES.framework */,
+				C64F85F81B38758900011FCE /* libz.dylib */,
+				C64F85F61B38757500011FCE /* libicucore.dylib */,
+				C64F85F41B38756000011FCE /* libc++.dylib */,
+				C64F85F21B38754A00011FCE /* ImageIO.framework */,
+				C64F85F01B38754200011FCE /* GLKit.framework */,
+				C64F85EE1B38753A00011FCE /* CoreText.framework */,
+				C64F85EC1B38753100011FCE /* CoreLocation.framework */,
+				C64F85EA1B38752600011FCE /* CoreData.framework */,
+				C64F85E81B38751E00011FCE /* AVFoundation.framework */,
+				C64F85E61B38750F00011FCE /* GoogleMaps.framework */,
+				37F9BB99590A567A359EFCFC /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5234D851F7BC36301D1C18D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E85AA8A8CB38BAD6C8FA66BA /* Pods.debug.xcconfig */,
+				427E3C190193DE6942E26066 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C066824A1AC7D5A10064A6C0 = {
 			isa = PBXGroup;
 			children = (
 				C06682551AC7D5A10064A6C0 /* GMapsDemo */,
 				C066826B1AC7D5A10064A6C0 /* GMapsDemoTests */,
 				C06682541AC7D5A10064A6C0 /* Products */,
+				5234D851F7BC36301D1C18D1 /* Pods */,
+				420E108D27BA4F3F34900AAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +160,7 @@
 				C066825F1AC7D5A10064A6C0 /* Images.xcassets */,
 				C06682611AC7D5A10064A6C0 /* LaunchScreen.xib */,
 				C06682561AC7D5A10064A6C0 /* Supporting Files */,
+				C64F85E21B3873A700011FCE /* GMapsDemo-Bridging-Header.h */,
 			);
 			path = GMapsDemo;
 			sourceTree = "<group>";
@@ -119,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C06682721AC7D5A10064A6C0 /* Build configuration list for PBXNativeTarget "GMapsDemo" */;
 			buildPhases = (
+				B2B5D9D41AE5F8C02BBE1172 /* Check Pods Manifest.lock */,
 				C066824F1AC7D5A10064A6C0 /* Sources */,
 				C06682501AC7D5A10064A6C0 /* Frameworks */,
 				C06682511AC7D5A10064A6C0 /* Resources */,
+				C9E5C7BF050C37A8E7D58A85 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,6 +286,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B2B5D9D41AE5F8C02BBE1172 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C9E5C7BF050C37A8E7D58A85 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C066824F1AC7D5A10064A6C0 /* Sources */ = {
@@ -334,21 +447,36 @@
 		};
 		C06682731AC7D5A10064A6C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E85AA8A8CB38BAD6C8FA66BA /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/GoogleMaps/Frameworks",
+				);
 				INFOPLIST_FILE = GMapsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GMapsDemo/GMapsDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		C06682741AC7D5A10064A6C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 427E3C190193DE6942E26066 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/GoogleMaps/Frameworks",
+				);
 				INFOPLIST_FILE = GMapsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GMapsDemo/GMapsDemo-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +533,7 @@
 				C06682741AC7D5A10064A6C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C06682751AC7D5A10064A6C0 /* Build configuration list for PBXNativeTarget "GMapsDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +542,7 @@
 				C06682771AC7D5A10064A6C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
